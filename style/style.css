@@ -1,0 +1,66 @@
+/* Root Styles Start Here  */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+}
+/* Root Styles Start Ends Here  */
+
+/* Header Styles Start Here  */
+.header-container {
+    max-width: 1920px;
+    height: 850px;
+    width: 100%;
+    background: rgba(229, 84, 115, 0.10);
+    background-image: url("../images/pngwing\ 10.png");
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: 600px;
+}
+
+.header-content {
+
+    padding: 250px 97px 0px 100px;
+   
+}
+.header-title {
+    text-align: left;
+    width: 700px;
+    height: 260px;
+    color: #272727;
+    line-height: normal;
+    font-size: 75px;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+
+.header-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-style: normal;
+    line-height: 30px;
+    width: 634px;
+    height: 90px;
+    margin: 32px 0px;
+}
+.btn{
+    width: 177px;
+    height: 64px;
+    padding: 20px 43px;
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: rgba(229, 84, 115, 0.10);
+    border: 0.3px solid #E55473;
+    color: black;
+}
+/* Header Styles Ends Here  */
+/* Featured Flowers styles Start Here  */
+
+
+/* Featured Flowers styles Ends Here  */
