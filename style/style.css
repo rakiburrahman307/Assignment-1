@@ -1,29 +1,30 @@
 /* Root Styles Start Here  */
-*{
+* {
     margin: 0px;
     padding: 0px;
     font-family: 'Lato', sans-serif;
     box-sizing: border-box;
 }
+
 /* Root Styles Start Ends Here  */
 
 /* Header Styles Start Here  */
 .header-container {
-    max-width: 1920px;
+    max-width: 1922px;
     height: 850px;
     width: 100%;
     background: rgba(229, 84, 115, 0.10);
     background-image: url("../images/pngwing\ 10.png");
-    background-position: bottom right;
     background-repeat: no-repeat;
-    background-size: 600px;
+    background-position: bottom right;
+
 }
+
 
 .header-content {
-
     padding: 250px 240px;
-   
 }
+
 .header-title {
     text-align: left;
     width: 700px;
@@ -44,7 +45,8 @@
     height: 90px;
     margin: 32px 0px;
 }
-.btn{
+
+.btn {
     width: 177px;
     height: 64px;
     padding: 20px 43px;
@@ -54,13 +56,405 @@
     color: white;
     font-weight: bold;
 }
-.btn:hover{
+
+.btn:hover {
     background-color: rgba(229, 84, 115, 0.10);
     border: 0.3px solid #E55473;
     color: black;
 }
+
 /* Header Styles Ends Here  */
 /* Featured Flowers styles Start Here  */
+.featured-flowers-Container {
+    margin: 100px 240px;
+}
 
+.featured-flowers-content {
+    align-items: center;
+    width: 60%;
+    margin: auto;
+}
+
+.featured-flowers-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+
+}
+
+.featured-flowers-description {
+    width: 590px;
+    height: 60px;
+    margin: auto;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.featured-flowers-images {
+    margin: 50px 240px;
+    margin: auto;
+}
+
+.featured-flowers-boxes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.featured-flowers-img-1 {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.featured-flowers-img-2 {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.featured-flowers-img-3 {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.featured-flowers-img-1 .img-1 {
+    width: 310px;
+    height: 428px;
+    margin: auto;
+    background-image: url("../images/pngwing\ 6.png");
+    margin-top: 110px;
+}
+
+.featured-flowers-img-2 .img-2 {
+    width: 310px;
+    height: 428px;
+    margin: auto;
+    background-image: url("../images/pngwing\ 5.png");
+    margin-top: 110px;
+}
+
+.featured-flowers-img-3 .img-3 {
+    width: 310px;
+    height: 428px;
+    margin: auto;
+    background-image: url("../images/pngwing\ 7.png");
+    margin-top: 110px;
+}
+
+.featured-flowers-heading {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.featured-flowers-heading .featured-flowers-heading-1 {
+    width: 181px;
+    height: 35px;
+    margin-top: 10px;
+    margin-left: 130px;
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+
+.featured-flowers-heading .featured-flowers-heading-2 {
+    width: 181px;
+    height: 35px;
+    margin-top: 20px;
+    margin-left: 320px;
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+
+.featured-flowers-heading .featured-flowers-heading-3 {
+    width: 181px;
+    height: 35px;
+    margin-top: 20px;
+    margin-left: 350px;
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
 
 /* Featured Flowers styles Ends Here  */
+
+/* Icon styles Start Here  */
+.icon-container {
+    width: 1140px;
+    height: 320px;
+    margin: auto;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin-bottom: 200px;
+}
+
+.icon-content-boxes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon-content-box {
+    text-align: center;
+    padding: 86px 105px 87px 105px;
+}
+
+.icon-content-box img {
+    width: 88px;
+    height: 88px;
+}
+
+.icon-content-box p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+}
+
+/* Icon styles Ends Here  */
+
+/* Hot Deal styles Start Here  */
+.hot-deal-container {
+    max-width: 1922px;
+    min-height: 620px;
+    width: 100%;
+    display: flex;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin-bottom: 200px;
+    position: relative;
+}
+
+.bg-image {
+    width: 318px;
+    height: 420px;
+    position: absolute;
+    top: 100px;
+    right: 429px;
+}
+
+.hot-deal-content {
+    padding: 230px 933px 162px 395px;
+}
+
+.hot-deal-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+
+}
+
+.hot-deal-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 32px;
+
+}
+
+.hot-deal-span {
+    color: #E55473;
+}
+
+.btn-sing-up {
+    width: 155px;
+    height: 64px;
+    padding: 20px 43px;
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+    color: white;
+    font-weight: bold;
+    margin-left: 210px;
+}
+
+/* Hot Deal styles Ends Here  */
+
+/*Instagram styles Start Here  */
+.instagram-container {
+    margin: 200px 240px;
+}
+
+.instagram-content {
+    align-items: center;
+    width: 60%;
+    margin: auto;
+}
+
+.instagram-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+
+}
+
+.instagram-description {
+    width: 590px;
+    height: 60px;
+    margin: auto;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.instagram-images {
+    display: flex;
+    gap: 24px;
+}
+
+.instagram-img {
+    width: 342px;
+    height: 396px;
+    background-image: url("../images/Flower\ 01.png");
+
+}
+
+.instagram-img-1 {
+    width: 342px;
+    height: 396px;
+    background-image: url("../images/Rectangle\ 4.png");
+
+}
+
+.instagram-img-2 {
+    width: 342px;
+    height: 396px;
+    background-image: url("../images/Rectangle\ 5.png");
+
+}
+
+.instagram-img-3 {
+    width: 342px;
+    height: 396px;
+    background-image: url("../images/Rectangle\ 6.png");
+
+}
+
+/* Instagram styles Ends Here  */
+/* Latest Deal styles Start Here  */
+.latest-deal-container {
+    width: 1440px;
+    height: 449px;
+    margin: auto;
+    background-image: url("../images/Rectangle\ 9.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 122px 0px 0px 0px;
+}
+
+.latest-deal-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+
+    margin-bottom: 16px;
+}
+
+.latest-deal-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 48px;
+}
+
+.form-content {
+    margin-left: 350px;
+
+}
+
+.form-content input {
+    width: 700px;
+    height: 64px;
+    text-align: left;
+    border: none;
+    margin-right: 16px;
+}
+
+.btn-sub {
+    width: 177px;
+    height: 64px;
+    padding: 18px 43px;
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-sub:hover {
+    background-color: transparent;
+    border: 0.3px solid #E55473;
+    color: black;
+}
+
+/* Latest Deal styles Ends Here  */
+/* Footer Styles Start Here  */
+.footer-container {
+    max-width: 1922px;
+    height: 449px;
+    width: 100%;
+    background: #111010;
+}
+
+.footer-content {
+    padding: 128px 648px;
+    text-align: center;
+
+}
+
+.footer-heading {
+    color: white;
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 24px;
+
+}
+
+.footer-span {
+    color: #E55473;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 24px;
+}
+
+.copy-description {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Footer Styles Ends Here  */
