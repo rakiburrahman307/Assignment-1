@@ -250,11 +250,11 @@
     height: 420px;
     position: absolute;
     top: 100px;
-    right: 429px;
+    right: 229px;
 }
 
 .hot-deal-content {
-    padding: 230px 933px 162px 395px;
+    padding: 220px 0px 0px 195px;
 }
 
 .hot-deal-title {
@@ -271,6 +271,8 @@
     font-size: 18px;
     line-height: 30px;
     margin-bottom: 32px;
+    width: 590px;
+    height: 60px;
 
 }
 
@@ -299,7 +301,7 @@
 
 .instagram-content {
     align-items: center;
-    width: 60%;
+    width: 80%;
     margin: auto;
 }
 
@@ -332,6 +334,8 @@
     width: 342px;
     height: 396px;
     background-image: url("../images/Flower\ 01.png");
+    background-position: center;
+    background-size: cover;
 
 }
 
@@ -426,8 +430,8 @@
 }
 
 .footer-content {
-    padding: 128px 648px;
     text-align: center;
+    padding-top: 150px;
 
 }
 
