@@ -6,6 +6,19 @@
     box-sizing: border-box;
 }
 
+.container {
+    max-width: 1490px;
+    width: 100%;
+    padding: 0 25px;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 /* Root Styles Start Ends Here  */
 
 /* Header Styles Start Here  */
@@ -30,10 +43,8 @@
     width: 700px;
     height: 260px;
     color: #272727;
-    line-height: normal;
     font-size: 80px;
     font-weight: 800;
-    margin-bottom: 0px;
 }
 
 .header-description {
@@ -72,8 +83,9 @@
 /* Featured Flowers styles Start Here  */
 .featured-flowers-Container {
     margin: 100px auto;
-    width: 1140px;
-    
+    max-width: 1140px;
+    width: 100%;
+
 }
 
 .featured-flowers-content {
@@ -210,17 +222,23 @@
 
 /* Icon styles Start Here  */
 .icon-container {
-    width: 1140px;
+    width: 100%;
+    margin-bottom: 200px;
+}
+
+.icon {
+    max-width: 100%;
     height: 320px;
     margin: auto;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
-    margin-bottom: 200px;
+
 }
 
 .icon-content-boxes {
     display: flex;
     justify-content: space-around;
+
 }
 
 .icon-content-box {
@@ -262,6 +280,8 @@
 }
 
 .hot-deal-content {
+    max-width: 1140px;
+    width: auto;
     padding: 220px 0px 0px 195px;
 }
 
@@ -304,13 +324,12 @@
 
 /*Instagram styles Start Here  */
 .instagram-container {
-    margin: 200px 240px;
+    margin: 200px auto;
 }
 
 .instagram-content {
     align-items: center;
-    width: 80%;
-    margin: auto;
+    width: 100%;
 }
 
 .instagram-title {
@@ -334,47 +353,37 @@
 }
 
 .instagram-images {
-    display: flex;
-    gap: 24px;
+    width: 100%;
 }
 
 .instagram-img {
-    width: 342px;
-    height: 396px;
-    background-image: url("../images/Flower\ 01.png");
-    background-position: center;
-    background-size: cover;
-
+    margin-right: 2%;
+    margin-bottom: 20px;
+    max-width: 23.5%;
+    width: 100%;
+    float: left;
 }
 
-.instagram-img-1 {
-    width: 342px;
-    height: 396px;
-    background-image: url("../images/Rectangle\ 4.png");
-
+.instagram-img:nth-child(4) {
+    margin-right: 0px !important;
 }
 
-.instagram-img-2 {
-    width: 342px;
-    height: 396px;
-    background-image: url("../images/Rectangle\ 5.png");
-
-}
-
-.instagram-img-3 {
-    width: 342px;
-    height: 396px;
-    background-image: url("../images/Rectangle\ 6.png");
-
+img {
+    width: 100%;
 }
 
 /* Instagram styles Ends Here  */
 /* Latest Deal styles Start Here  */
 .latest-deal-container {
-    width: 1440px;
+    width: 100%;
+
+}
+
+.latest-deal {
+    width: 100%;
     height: 449px;
     margin: auto;
-    background-image: url("../images/Rectangle\ 9.png");
+    background-image: url("../images/Rectangle9.png");
     background-size: cover;
     background-repeat: no-repeat;
     padding: 122px 0px 0px 0px;
@@ -385,7 +394,6 @@
     text-align: center;
     font-size: 40px;
     font-weight: 800;
-
     margin-bottom: 16px;
 }
 
@@ -410,6 +418,10 @@
     margin-right: 16px;
 }
 
+.form-content input::placeholder {
+    padding-left: 20px;
+}
+
 .btn-sub {
     width: 177px;
     height: 64px;
@@ -419,6 +431,7 @@
     border: none;
     color: white;
     font-weight: bold;
+    transition: 0.2s;
 }
 
 .btn-sub:hover {
@@ -456,6 +469,9 @@
 }
 
 .footer-description {
+    width: 625px;
+    height: 60px;
+    margin: auto;
     color: rgba(255, 255, 255, 0.90);
     text-align: center;
     font-size: 18px;
@@ -465,6 +481,9 @@
 }
 
 .copy-description {
+    width: 355px;
+    height: 19px;
+    margin: auto;
     color: rgba(255, 255, 255, 0.40);
     text-align: center;
     font-size: 16px;
