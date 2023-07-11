@@ -66,11 +66,11 @@
     border: none;
     color: white;
     font-weight: bold;
-    transition: 0.2s;
-    -webkit-transition: 0.2s;
-    -moz-transition: 0.2s;
-    -ms-transition: 0.2s;
-    -o-transition: 0.2s;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
 }
 
 .btn:hover {
@@ -81,18 +81,21 @@
 
 /* Header Styles Ends Here  */
 /* Featured Flowers styles Start Here  */
-.featured-flowers-Container {
-    margin: 100px auto;
-    max-width: 1140px;
-    width: 100%;
 
+.featured-flowers-Container {
+    margin: 100px 0px;
+    width: 100%;
+}
+
+.feature {
+    width: 100%;
 }
 
 .featured-flowers-content {
     align-items: center;
     width: 60%;
     margin: auto;
-    margin-bottom: 100px;
+    margin-bottom: 65px;
 }
 
 .featured-flowers-title {
@@ -115,107 +118,60 @@
     margin-bottom: 20px;
 }
 
-.featured-flowers-images {
-    margin: 50px 240px;
-    margin: auto;
-}
 
 .featured-flowers-boxes {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 50px;
+    justify-content: space-between;
+
 
 }
 
-.featured-flowers-img-1 {
-    width: 464px;
-    height: 538px;
-    border-radius: 300px 300px 0px 0px;
-    background: rgba(167, 33, 98, 0.15);
-}
-
-.featured-flowers-img-2 {
-    width: 464px;
-    height: 538px;
-    border-radius: 300px 300px 0px 0px;
-    background: rgba(5, 151, 160, 0.15);
-}
-
+.featured-flowers-img-1,
+.featured-flowers-img-2,
 .featured-flowers-img-3 {
     width: 464px;
     height: 538px;
     border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    position: relative;
+}
+
+.featured-flowers-img-2 {
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.featured-flowers-img-3 {
     background: rgba(71, 125, 17, 0.15);
 }
 
-.featured-flowers-img-1 .img-1 {
-    width: 310px;
+.featured-flowers-img-1 .img-1,
+.featured-flowers-img-2 .img-2,
+.featured-flowers-img-3 .img-3 {
+    width: 100%;
     height: 428px;
-    margin: auto;
     background-image: url("../images/pngwing\ 6.png");
-    margin-top: 110px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0;
 }
 
 .featured-flowers-img-2 .img-2 {
-    width: 310px;
-    height: 428px;
-    margin: auto;
     background-image: url("../images/pngwing\ 5.png");
-    margin-top: 110px;
 }
 
 .featured-flowers-img-3 .img-3 {
-    width: 310px;
-    height: 428px;
-    margin: auto;
     background-image: url("../images/pngwing\ 7.png");
-    margin-top: 110px;
 }
 
-.featured-flowers-heading {
-    display: flex;
-    margin-top: 20px;
-    align-items: center;
-}
-
-.featured-flowers-heading .featured-flowers-heading-1 {
-    width: 181px;
-    height: 35px;
+.feature-text a {
+    color: #272727;
+    display: block;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
     margin-top: 10px;
-    margin-left: 130px;
-    color: #272727;
     text-align: center;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 35px;
-    text-decoration-line: underline;
-}
-
-.featured-flowers-heading .featured-flowers-heading-2 {
-    width: 181px;
-    height: 35px;
-    margin-top: 20px;
-    margin-left: 320px;
-    color: #272727;
-    text-align: center;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 35px;
-    text-decoration-line: underline;
-}
-
-.featured-flowers-heading .featured-flowers-heading-3 {
-    width: 181px;
-    height: 35px;
-    margin-top: 20px;
-    margin-left: 350px;
-    color: #272727;
-    text-align: center;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 35px;
-    text-decoration-line: underline;
 }
 
 /* Featured Flowers styles Ends Here  */
@@ -223,7 +179,7 @@
 /* Icon styles Start Here  */
 .icon-container {
     width: 100%;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
 .icon {
@@ -267,7 +223,7 @@
     display: flex;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
-    margin-bottom: 200px;
+    margin-bottom: 100px;
     position: relative;
 }
 
@@ -318,13 +274,24 @@
     color: white;
     font-weight: bold;
     margin-left: 210px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.btn-sing-up:hover {
+    background-color: transparent;
+    border: 0.3px solid #E55473;
+    color: black;
 }
 
 /* Hot Deal styles Ends Here  */
 
 /*Instagram styles Start Here  */
 .instagram-container {
-    margin: 200px auto;
+    margin: 100px auto;
 }
 
 .instagram-content {
@@ -376,6 +343,7 @@ img {
 /* Latest Deal styles Start Here  */
 .latest-deal-container {
     width: 100%;
+    margin-bottom: 100px;
 
 }
 
@@ -441,6 +409,65 @@ img {
 }
 
 /* Latest Deal styles Ends Here  */
+
+/* Extra Payment Section Style Start Here  */
+.extra-container {
+    max-width: 1922px;
+    min-height: 520px;
+    width: 100%;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.10);
+    margin-bottom: 100px;
+}
+
+.extra-content {
+    text-align: center;
+    padding-top: 150px;
+    padding-left: 100px;
+}
+
+.extra-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.extra-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 32px;
+    width: 590px;
+    height: 60px;
+    margin: auto;
+}
+
+.btn-lorn-more {
+    width: 155px;
+    height: 64px;
+    padding: 18px 43px;
+    margin: 50px auto;
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.btn-lorn-more:hover {
+    background-color: transparent;
+    border: 0.3px solid #E55473;
+    color: black;
+}
+
+/* Extra Payment Section Style Ends Here  */
+
 /* Footer Styles Start Here  */
 .footer-container {
     max-width: 1922px;
