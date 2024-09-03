@@ -2,151 +2,144 @@
 * {
     margin: 0px;
     padding: 0px;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     box-sizing: border-box;
-}
-
-.container {
-    max-width: 1490px;
+  }
+  
+  .container {
+    max-width: 1366px;
     width: 100%;
     padding: 0 25px;
     margin: 0 auto;
-}
-
-.clearfix::after {
+  }
+  
+  .clearfix::after {
     content: "";
     clear: both;
     display: table;
-}
-
-/* Root Styles Ends Here  */
-
-/* Header Styles Start Here  */
-.header-container {
-    max-width: 1922px;
+  }
+  
+  /* Root Styles Ends Here  */
+  
+  /* Header Styles Start Here  */
+  .header-container {
+    max-width: 1920px;
     height: 850px;
     width: 100%;
-    background: rgba(229, 84, 115, 0.10);
+    margin: auto;
+    background: rgba(229, 84, 115, 0.1);
     background-image: url("../images/pngwing\ 10.png");
     background-repeat: no-repeat;
     background-position: bottom right;
-
-}
-
-
-.header-content {
+  }
+  
+  .header-content {
     padding-top: 200px;
-}
-
-.header-title {
+  }
+  
+  .header-title {
     text-align: left;
     width: 700px;
     height: 260px;
     color: #272727;
     font-size: 80px;
     font-weight: 800;
-}
-
-.header-description {
-    color: rgba(39, 39, 39, 0.60);
+  }
+  
+  .header-description {
+    color: rgba(39, 39, 39, 0.6);
     font-size: 18px;
     font-style: normal;
     line-height: 30px;
     width: 634px;
     height: 90px;
     margin: 32px 0px;
-}
-
-.btn {
+  }
+  
+  .btn {
     width: 177px;
     height: 64px;
     padding: 20px 43px;
     border-radius: 8px;
-    background: #E55473;
+    background: #e55473;
     border: none;
     color: white;
     font-weight: bold;
     transition: 0.5s;
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -ms-transition: 0.5s;
-    -o-transition: 0.5s;
-}
-
-.btn:hover {
-    background-color: rgba(229, 84, 115, 0.10);
-    border: 0.3px solid #E55473;
+  }
+  
+  .btn:hover {
+    background-color: rgba(229, 84, 115, 0.1);
+    border: 0.3px solid #e55473;
     color: black;
-}
-
-/* Header Styles Ends Here  */
-/* Featured Flowers styles Start Here  */
-
-.featured-flowers-Container {
+  }
+  
+  /* Header Styles Ends Here  */
+  
+  /* Featured Flowers styles Start Here  */
+  .featured-flowers-Container {
     margin: 100px 0px;
     width: 100%;
-}
-
-.feature {
+  }
+  
+  .feature {
     width: 100%;
-}
-
-.featured-flowers-content {
+  }
+  
+  .featured-flowers-content {
     align-items: center;
     width: 60%;
     margin: auto;
     margin-bottom: 65px;
-}
-
-.featured-flowers-title {
+  }
+  
+  .featured-flowers-title {
     color: #272727;
     text-align: center;
     font-size: 40px;
     font-weight: 800;
     margin-bottom: 20px;
-
-}
-
-.featured-flowers-description {
+  }
+  
+  .featured-flowers-description {
     width: 590px;
     height: 60px;
     margin: auto;
-    color: rgba(39, 39, 39, 0.60);
+    color: rgba(39, 39, 39, 0.6);
     text-align: center;
     font-size: 18px;
     line-height: 30px;
     margin-bottom: 20px;
-}
-
-
-.featured-flowers-boxes {
+  }
+  
+  .featured-flowers-boxes {
     display: flex;
-    justify-content: space-between;
-
-
-}
-
-.featured-flowers-img-1,
-.featured-flowers-img-2,
-.featured-flowers-img-3 {
-    width: 464px;
+    max-width: 1366px;
+    gap: 10px;
+    margin: auto;
+  }
+  
+  .featured-flowers-img-1,
+  .featured-flowers-img-2,
+  .featured-flowers-img-3 {
+    width: 425px;
     height: 538px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
     position: relative;
-}
-
-.featured-flowers-img-2 {
+  }
+  
+  .featured-flowers-img-2 {
     background: rgba(5, 151, 160, 0.15);
-}
-
-.featured-flowers-img-3 {
+  }
+  
+  .featured-flowers-img-3 {
     background: rgba(71, 125, 17, 0.15);
-}
-
-.featured-flowers-img-1 .img-1,
-.featured-flowers-img-2 .img-2,
-.featured-flowers-img-3 .img-3 {
+  }
+  
+  .featured-flowers-img-1 .img-1,
+  .featured-flowers-img-2 .img-2,
+  .featured-flowers-img-3 .img-3 {
     width: 100%;
     height: 428px;
     background-image: url("../images/pngwing\ 6.png");
@@ -154,17 +147,17 @@
     background-repeat: no-repeat;
     position: absolute;
     bottom: 0;
-}
-
-.featured-flowers-img-2 .img-2 {
+  }
+  
+  .featured-flowers-img-2 .img-2 {
     background-image: url("../images/pngwing\ 5.png");
-}
-
-.featured-flowers-img-3 .img-3 {
+  }
+  
+  .featured-flowers-img-3 .img-3 {
     background-image: url("../images/pngwing\ 7.png");
-}
-
-.feature-text a {
+  }
+  
+  .feature-text a {
     color: #272727;
     display: block;
     font-size: 24px;
@@ -172,182 +165,174 @@
     line-height: 35px;
     margin-top: 10px;
     text-align: center;
-}
-
-/* Featured Flowers styles Ends Here  */
-
-/* Icon styles Start Here  */
-.icon-container {
+  }
+  
+  /* Featured Flowers styles Ends Here  */
+  
+  /* Icon styles Start Here  */
+  .icon-container {
     width: 100%;
     margin-bottom: 100px;
-}
-
-.icon {
+  }
+  
+  .icon {
     max-width: 100%;
     height: 320px;
     margin: auto;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
-
-}
-
-.icon-content-boxes {
+  }
+  
+  .icon-content-boxes {
     display: flex;
     justify-content: space-around;
-
-}
-
-.icon-content-box {
+  }
+  
+  .icon-content-box {
     text-align: center;
     padding: 86px 105px 87px 105px;
-}
-
-.icon-content-box img {
+  }
+  
+  .icon-content-box img {
     width: 88px;
     height: 88px;
-}
-
-.icon-content-box p {
+  }
+  
+  .icon-content-box p {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: clip;
-}
-
-/* Icon styles Ends Here  */
-
-/* Hot Deal styles Start Here  */
-.hot-deal-container {
-    max-width: 1922px;
+  }
+  
+  /* Icon styles Ends Here  */
+  
+  /* Hot Deal styles Start Here  */
+  .hot-deal-container {
+    max-width: 1920px;
     min-height: 620px;
+    margin: auto;
     width: 100%;
     display: flex;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
     margin-bottom: 100px;
     position: relative;
-}
-
-.bg-image {
+  }
+  
+  .bg-image {
     width: 318px;
     height: 420px;
     position: absolute;
     top: 100px;
     right: 229px;
-}
-
-.hot-deal-content {
+  }
+  
+  .hot-deal-content {
     max-width: 1140px;
     width: auto;
     padding: 220px 0px 0px 195px;
-}
-
-.hot-deal-title {
+  }
+  
+  .hot-deal-title {
     color: #272727;
     font-size: 40px;
     font-weight: 800;
     margin-bottom: 24px;
-
-}
-
-.hot-deal-description {
-    color: rgba(39, 39, 39, 0.60);
+  }
+  
+  .hot-deal-description {
+    color: rgba(39, 39, 39, 0.6);
     text-align: center;
     font-size: 18px;
     line-height: 30px;
     margin-bottom: 32px;
     width: 590px;
     height: 60px;
-
-}
-
-.hot-deal-span {
-    color: #E55473;
-}
-
-.btn-sing-up {
+  }
+  
+  .hot-deal-span {
+    color: #e55473;
+  }
+  
+  .btn-sing-up {
     width: 155px;
     height: 64px;
     padding: 20px 43px;
     border-radius: 8px;
-    background: #E55473;
+    background: #e55473;
     border: none;
     color: white;
     font-weight: bold;
     margin-left: 210px;
     transition: 0.5s;
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -ms-transition: 0.5s;
-    -o-transition: 0.5s;
-}
-
-.btn-sing-up:hover {
+  }
+  
+  .btn-sing-up:hover {
     background-color: transparent;
-    border: 0.3px solid #E55473;
+    border: 0.3px solid #e55473;
     color: black;
-}
-
-/* Hot Deal styles Ends Here  */
-
-/*Instagram styles Start Here  */
-.instagram-container {
+  }
+  
+  /* Hot Deal styles Ends Here  */
+  
+  /* Instagram styles Start Here  */
+  .instagram-container {
     margin: 100px auto;
-}
-
-.instagram-content {
+  }
+  
+  .instagram-content {
     align-items: center;
     width: 100%;
-}
-
-.instagram-title {
+  }
+  
+  .instagram-title {
     color: #272727;
     text-align: center;
     font-size: 40px;
     font-weight: 800;
     margin-bottom: 24px;
-
-}
-
-.instagram-description {
+  }
+  
+  .instagram-description {
     width: 590px;
     height: 60px;
     margin: auto;
-    color: rgba(39, 39, 39, 0.60);
+    color: rgba(39, 39, 39, 0.6);
     text-align: center;
     font-size: 18px;
     line-height: 30px;
     margin-bottom: 20px;
-}
-
-.instagram-images {
+  }
+  
+  .instagram-images {
     width: 100%;
-}
-
-.instagram-img {
+  }
+  
+  .instagram-img {
     margin-right: 2%;
     margin-bottom: 20px;
     max-width: 23.5%;
     width: 100%;
     float: left;
-}
-
-.instagram-img:nth-child(4) {
+  }
+  
+  .instagram-img:nth-child(4) {
     margin-right: 0px !important;
-}
-
-img {
+  }
+  
+  img {
     width: 100%;
-}
-
-/* Instagram styles Ends Here  */
-/* Latest Deal styles Start Here  */
-.latest-deal-container {
+  }
+  
+  /* Instagram styles Ends Here  */
+  
+  /* Latest Deal styles Start Here  */
+  .latest-deal-container {
     width: 100%;
     margin-bottom: 100px;
-
-}
-
-.latest-deal {
+  }
+  
+  .latest-deal {
     width: 100%;
     height: 449px;
     margin: auto;
@@ -355,164 +340,448 @@ img {
     background-size: cover;
     background-repeat: no-repeat;
     padding: 122px 0px 0px 0px;
-}
-
-.latest-deal-title {
+  }
+  
+  .latest-deal-title {
     color: #272727;
     text-align: center;
     font-size: 40px;
     font-weight: 800;
     margin-bottom: 16px;
-}
-
-.latest-deal-description {
-    color: rgba(39, 39, 39, 0.60);
+  }
+  
+  .latest-deal-description {
+    color: rgba(39, 39, 39, 0.6);
     text-align: center;
     font-size: 18px;
     line-height: 30px;
     margin-bottom: 48px;
-}
-
-.form-content {
+  }
+  
+  .form-content {
     margin-left: 350px;
-
-}
-
-.form-content input {
+  }
+  
+  .form-content input {
     width: 700px;
     height: 64px;
     text-align: left;
     border: none;
     margin-right: 16px;
-}
-
-.form-content input::placeholder {
+  }
+  
+  .form-content input::placeholder {
     padding-left: 20px;
-}
-
-.btn-sub {
+  }
+  
+  .btn-sub {
     width: 177px;
     height: 64px;
     padding: 18px 43px;
     border-radius: 8px;
-    background: #E55473;
+    background: #e55473;
     border: none;
     color: white;
     font-weight: bold;
     transition: 0.2s;
-}
-
-.btn-sub:hover {
+  }
+  
+  .btn-sub:hover {
     background-color: transparent;
-    border: 0.3px solid #E55473;
+    border: 0.3px solid #e55473;
     color: black;
-}
-
-/* Latest Deal styles Ends Here  */
-
-/* Extra Payment Section Style Start Here  */
-.extra-container {
-    max-width: 1922px;
+  }
+  
+  /* Latest Deal styles Ends Here  */
+  
+  /* Extra Payment Section Style Start Here  */
+  .extra-container {
+    max-width: 1920px;
     min-height: 520px;
     width: 100%;
+    margin: auto;
     border-radius: 8px;
-    background: rgba(229, 84, 115, 0.10);
+    background: rgba(229, 84, 115, 0.1);
     margin-bottom: 100px;
-}
-
-.extra-content {
+  }
+  
+  .extra-content {
     text-align: center;
     padding-top: 150px;
     padding-left: 100px;
-}
-
-.extra-title {
+  }
+  
+  .extra-title {
     color: #272727;
     font-size: 40px;
     font-weight: 800;
     margin-bottom: 24px;
-}
-
-.extra-description {
-    color: rgba(39, 39, 39, 0.60);
+  }
+  
+  .extra-description {
+    color: rgba(39, 39, 39, 0.6);
     font-size: 18px;
     line-height: 30px;
     margin-bottom: 32px;
     width: 590px;
     height: 60px;
     margin: auto;
-}
-
-.btn-lorn-more {
+  }
+  
+  .btn-lorn-more {
     width: 155px;
     height: 64px;
     padding: 18px 43px;
     margin: 50px auto;
     border-radius: 8px;
-    background: #E55473;
+    background: #e55473;
     border: none;
     color: white;
     font-weight: bold;
     transition: 0.5s;
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -ms-transition: 0.5s;
-    -o-transition: 0.5s;
-}
-
-.btn-lorn-more:hover {
+  }
+  
+  .btn-lorn-more:hover {
     background-color: transparent;
-    border: 0.3px solid #E55473;
+    border: 0.3px solid #e55473;
     color: black;
-}
-
-/* Extra Payment Section Style Ends Here  */
-
-/* Footer Styles Start Here  */
-.footer-container {
-    max-width: 1922px;
+  }
+  
+  /* Extra Payment Section Style Ends Here  */
+  
+  /* Footer Styles Start Here  */
+  .footer-container {
+    max-width: 1920px;
+    margin: auto;
     height: 449px;
     width: 100%;
     background: #111010;
-}
-
-.footer-content {
+  }
+  
+  .footer-content {
     text-align: center;
     padding-top: 150px;
-
-}
-
-.footer-heading {
+  }
+  
+  .footer-heading {
     color: white;
     font-size: 48px;
     font-weight: 800;
     margin-bottom: 24px;
-
-}
-
-.footer-span {
-    color: #E55473;
-}
-
-.footer-description {
+  }
+  
+  .footer-span {
+    color: #e55473;
+  }
+  
+  .footer-description {
     width: 625px;
     height: 60px;
     margin: auto;
-    color: rgba(255, 255, 255, 0.90);
+    color: rgba(255, 255, 255, 0.9);
     text-align: center;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
     margin-bottom: 24px;
-}
-
-.copy-description {
+  }
+  
+  .copy-description {
     width: 355px;
     height: 19px;
     margin: auto;
-    color: rgba(255, 255, 255, 0.40);
+    color: rgba(255, 255, 255, 0.4);
     text-align: center;
     font-size: 16px;
-}
-
-/* Footer Styles Ends Here  */
+  }
+  
+  /* Footer Styles Ends Here  */
+  
+  /* Media Queries Start Here  */
+  @media (max-width: 1200px) {
+    .header-title {
+      font-size: 60px;
+      width: 500px;
+    }
+  
+    .header-description {
+      width: 500px;
+    }
+  
+    .featured-flowers-content {
+      width: 80%;
+    }
+  
+    .featured-flowers-description {
+      width: 500px;
+    }
+  
+    .featured-flowers-img-1,
+    .featured-flowers-img-2,
+    .featured-flowers-img-3 {
+      width: 350px;
+      height: 450px;
+    }
+  
+    .featured-flowers-img-1 .img-1,
+    .featured-flowers-img-2 .img-2,
+    .featured-flowers-img-3 .img-3 {
+      height: 350px;
+    }
+  
+    .icon-content-box {
+      padding: 60px 80px;
+    }
+  
+    .hot-deal-content {
+      padding: 180px 0px 0px 150px;
+    }
+  
+    .form-content {
+      margin-left: 200px;
+      width: 100%;
+    }
+  
+    .form-content input {
+      width: calc(100% - 220px);
+      margin-right: 0;
+    }
+  
+    .btn-sub {
+      width: 150px;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .header-title {
+      font-size: 50px;
+      width: 400px;
+    }
+  
+    .header-description {
+      width: 400px;
+    }
+  
+    .featured-flowers-content {
+      width: 90%;
+    }
+  
+    .featured-flowers-description {
+      width: 400px;
+    }
+  
+    .featured-flowers-img-1,
+    .featured-flowers-img-2,
+    .featured-flowers-img-3 {
+      width: 300px;
+      height: 400px;
+    }
+  
+    .featured-flowers-img-1 .img-1,
+    .featured-flowers-img-2 .img-2,
+    .featured-flowers-img-3 .img-3 {
+      height: 300px;
+    }
+  
+    .icon-content-box {
+      padding: 50px 60px;
+    }
+  
+    .hot-deal-content {
+      padding: 150px 0px 0px 120px;
+    }
+  
+    .form-content {
+      margin-left: 0;
+      width: 100%;
+      text-align: center;
+    }
+  
+    .form-content input {
+      width: calc(100% - 20px);
+      margin-right: 0;
+    }
+  
+    .btn-sub {
+      width: 130px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .header-title {
+      font-size: 40px;
+      width: 300px;
+    }
+  
+    .header-description {
+      width: 300px;
+    }
+  
+    .featured-flowers-content {
+      width: 100%;
+    }
+  
+    .featured-flowers-description {
+      width: 300px;
+    }
+  
+    .featured-flowers-img-1,
+    .featured-flowers-img-2,
+    .featured-flowers-img-3 {
+      width: 250px;
+      height: 350px;
+    }
+  
+    .featured-flowers-img-1 .img-1,
+    .featured-flowers-img-2 .img-2,
+    .featured-flowers-img-3 .img-3 {
+      height: 250px;
+    }
+  
+    .icon-content-box {
+      padding: 40px 30px;
+    }
+  
+    .hot-deal-content {
+      padding: 120px 0px 0px 80px;
+    }
+  
+    .form-content {
+      margin: 0;
+      width: 100%;
+    }
+  
+    .form-content input {
+      width: calc(100% - 20px);
+      margin-right: 0;
+    }
+  
+    .btn-sub {
+      width: 120px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .header-title {
+      font-size: 30px;
+      width: 100%;
+    }
+  
+    .header-description {
+      width: 100%;
+    }
+  
+    .featured-flowers-content {
+      width: 100%;
+      padding: 0 10px;
+    }
+  
+    .featured-flowers-description {
+      width: 100%;
+    }
+  
+    .featured-flowers-img-1,
+    .featured-flowers-img-2,
+    .featured-flowers-img-3 {
+      width: 100%;
+      height: auto;
+      border-radius: 0;
+    }
+  
+    .featured-flowers-img-1 .img-1,
+    .featured-flowers-img-2 .img-2,
+    .featured-flowers-img-3 .img-3 {
+      height: auto;
+    }
+  
+    .icon-content-box {
+      padding: 30px 10px;
+    }
+  
+    .hot-deal-content {
+      padding: 100px 0px 0px 20px;
+    }
+  
+    .form-content {
+      margin: 0;
+      width: 100%;
+    }
+  
+    .form-content input {
+      width: calc(100% - 20px);
+      margin-right: 0;
+    }
+  
+    .btn-sub {
+      width: 100px;
+    }
+     /* Extra Payment Section Style Start Here  */
+  .extra-container {
+    max-width: 1920px;
+    min-height: 520px;
+    width: 100%;
+    margin: auto;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.1);
+    margin-bottom: 100px;
+  }
+  
+  .extra-content {
+    text-align: center;
+    padding-top: 150px;
+    padding-left: 100px;
+  }
+  
+  .extra-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+  }
+  
+  .extra-description {
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 32px;
+    width: 590px;
+    height: 60px;
+    margin: auto;
+  }
+  
+  .btn-lorn-more {
+    width: 155px;
+    height: 64px;
+    padding: 18px 43px;
+    margin: 50px auto;
+    border-radius: 8px;
+    background: #e55473;
+    border: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.5s;
+  }
+  
+  .btn-lorn-more:hover {
+    background-color: transparent;
+    border: 0.3px solid #e55473;
+    color: black;
+  }
+  
+  /* Extra Payment Section Style Ends Here  */
+     /* Footer Styles Start Here  */
+  .footer-span {
+    color: #e55473;
+  }
+  .footer-description {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .copy-description {
+    width: 100%;
+  }
+  
+  /* Footer Styles Ends Here  */
+  }
+  /* Media Queries Ends Here  */
+  
